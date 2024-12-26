@@ -57,7 +57,7 @@ let newObj = new Person('Vian','bannur')
 newObj.fullName()
 
 
-let productPrices = [34, 15, 88, 2, 96, 43];
+let productPrices = [34, 15, 88, 2, 96, 43,89];
 let discountedPrices =productPrices.map(num=>num*10/100)
 console.log(discountedPrices)
 let affordableProducts = discountedPrices.filter(num=>num<4)
